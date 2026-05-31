@@ -1,0 +1,11 @@
+Las APIs permiten que las comunidades compartan información de manera organizada
+al establecer canales estandarizados de comunicación entre diferentes personas
+y sistemas. A través de endpoints como GET y POST, los vecinos pueden consultar
+alertas existentes o enviar nuevos reportes desde sus celulares sin necesidad
+de conocer la tecnología interna del servidor. Esto democratiza el acceso a la
+información y permite que múltiples aplicaciones o grupos de WhatsApp se
+conecten a una misma fuente de datos confiable. Además, al centralizar los
+reportes comunitarios en una API, se facilita el análisis de patrones,
+la respuesta coordinada de entidades locales y la transparencia en la gestión
+de problemas barriales. En definitiva, una API convierte la información dispersa
+en datos estructurados que pueden salvar vidas y mejorar la calidad de vida urbana.
