@@ -1,0 +1,12 @@
+Prueba 1 - Ruta: http://localhost:3000
+Resultado: El servidor responde con el mensaje "Servidor activo".
+Esto confirma que el servidor está funcionando correctamente en el puerto 3000.
+
+Prueba 2 - Ruta: http://localhost:3000/saludo
+Resultado: El servidor responde con el mensaje "Hola comunidad".
+Esta ruta GET devuelve un saludo fijo para cualquier usuario que la visite.
+
+Prueba 3 - Ruta: http://localhost:3000/mensaje/juan
+Resultado: El servidor responde con el mensaje "Hola juan".
+Esta ruta usa un parámetro dinámico (:nombre) que cambia según lo que escriba
+el usuario en la URL. Si cambio "juan" por "maria", responderá "Hola maria".
