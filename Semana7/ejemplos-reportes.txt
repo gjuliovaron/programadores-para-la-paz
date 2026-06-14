@@ -1,0 +1,15 @@
+Ejemplos de reportes ciudadanos que podrían registrarse en el sistema
+
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
+
+Estos reportes pueden ser enviados mediante una petición POST a la ruta http://localhost:3000/reportes para ser registrados en el sistema de almacenamiento en memoria.
