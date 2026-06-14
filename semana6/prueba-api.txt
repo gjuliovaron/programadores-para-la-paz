@@ -1,0 +1,18 @@
+Prueba de la API - Ruta /registro
+
+Se envió una petición POST a http://localhost:3000/registro con el siguiente JSON:
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta recibida del servidor:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor recibió correctamente los datos enviados en el cuerpo de la petición (req.body) y los devolvió en formato JSON, confirmando que la comunicación entre el cliente y el servidor funciona correctamente.
