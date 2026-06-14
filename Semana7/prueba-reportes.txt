@@ -1,0 +1,43 @@
+Prueba de la API - Rutas /reportes (GET y POST)
+
+1. Se envió una petición POST a http://localhost:3000/reportes con el siguiente JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta recibida del servidor:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+2. Se envió una petición POST adicional con otro reporte:
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
+
+3. Se consultó la ruta GET http://localhost:3000/reportes y el servidor devolvió:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
+
+Lo que sucede al consultar GET /reportes es que el servidor devuelve el array completo de reportes almacenados en memoria, permitiendo ver todos los registros que han sido enviados hasta el momento. Esto demuestra que el sistema está guardando temporalmente los datos y los puede consultar en cualquier momento.
