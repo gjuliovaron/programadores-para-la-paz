@@ -1,0 +1,11 @@
+Buenas prácticas de seguridad para plataformas comunitarias
+
+1. No exponer datos personales: Los datos sensibles de los usuarios (nombres completos, cédulas, direcciones, correos electrónicos) deben estar cifrados y solo accesibles para los administradores autorizados. La información pública debe estar limitada a lo estrictamente necesario para la participación comunitaria.
+
+2. Proteger credenciales: Las contraseñas de acceso a la plataforma deben almacenarse de forma cifrada (hash) y nunca en texto plano. Además, se debe implementar autenticación de dos factores (2FA) para los usuarios con roles administrativos.
+
+3. Usar conexiones seguras: Todas las comunicaciones entre el usuario y la plataforma deben realizarse mediante HTTPS, evitando que terceros intercepten datos en tránsito, especialmente cuando los ciudadanos envían reportes o información sensible.
+
+4. Registrar accesos: Mantener un log o registro de quién accede a la plataforma, qué acciones realiza y desde qué dirección IP. Esto permite detectar accesos sospechosos, auditar incidentes y atribuir responsabilidades en caso de manipulación de datos.
+
+5. Limitar acceso a información sensible: Implementar roles diferenciados donde cada usuario solo pueda acceder a la información que necesita para su función. Por ejemplo, un moderador puede revisar reportes, pero no debe tener acceso a la base de datos completa ni a las configuraciones del servidor.
