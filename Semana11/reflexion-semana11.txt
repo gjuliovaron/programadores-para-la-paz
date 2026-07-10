@@ -1,0 +1,23 @@
+REFLEXIÓN SEMANA 11 - BASE DE DATOS, AUTENTICACIÓN Y PROTECCIÓN
+
+Una plataforma tecnológica que promueve participación ciudadana debe tener una 
+base de datos porque es necesario almacenar, organizar y consultar la información 
+comunitaria de forma estructurada y persistente. Sin ella, los reportes, causas 
+y apoyos se perderían al cerrar la aplicación.
+
+La autenticación de usuarios es fundamental porque permite diferenciar quién puede 
+solo consultar información de quién puede crear, editar o administrar contenido. 
+Esto evita que personas ajenas manipulen datos o accedan a funciones restringidas, 
+manteniendo la confianza de la comunidad en el sistema.
+
+La protección de información es un principio ético y técnico obligatorio. En 
+contextos de veeduría y participación ciudadana, las personas pueden estar en 
+situaciones de vulnerabilidad; por eso, la plataforma no debe exponer nombres 
+reales, direcciones, teléfonos ni documentos de identidad. Usar pseudónimos, 
+encriptar contraseñas y restringir el acceso a ciertas rutas son prácticas mínimas 
+que salvaguardan la integridad física y digital de los participantes.
+
+Además, la trazabilidad mediante Git permite auditar quién hizo qué cambios en el 
+código, lo cual refuerza la transparencia del proyecto. En conjunto, base de datos, 
+autenticación y protección de datos forman la base de una plataforma confiable, 
+segura y útil para la democracia participativa.
