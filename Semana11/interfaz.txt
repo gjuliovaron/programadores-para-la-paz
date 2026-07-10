@@ -1,0 +1,31 @@
+INTERFAZ BÁSICA - PLATAFORMA DE CAUSAS COMUNITARIAS
+
+1. Formulario para crear una causa
+   - Campo de texto: Título de la causa (obligatorio, máximo 100 caracteres).
+   - Área de texto: Descripción de la necesidad o propuesta (obligatorio, máximo 500 caracteres).
+   - Selector: Categoría (medio ambiente, seguridad, infraestructura, salud, educación, otros).
+   - Botón: "Publicar causa".
+   - Al enviar, se muestra un mensaje de confirmación y la causa aparece en la lista.
+
+2. Vista de causas disponibles
+   - Lista de tarjetas o filas que muestran: título, categoría, descripción breve, fecha y estado.
+   - Filtro opcional por categoría o estado.
+   - Cada causa tiene un enlace para ver más detalles.
+   - No se muestra información privada de los creadores (solo un pseudónimo).
+
+3. Botón para apoyar una causa
+   - Ubicado dentro de cada tarjeta de causa o en la vista de detalle.
+   - Texto del botón: "Apoyar esta causa" o "Dar mi apoyo".
+   - Al hacer clic, se registra el apoyo y se actualiza el contador en tiempo real.
+   - Si el usuario no ha iniciado sesión, se le invita a hacer login primero.
+
+4. Contador de apoyos
+   - Visualización numérica junto a cada causa (ejemplo: "245 apoyos").
+   - Barra de progreso opcional que muestre la meta comunitaria si está definida.
+   - Lista de los últimos apoyos con pseudónimos (sin datos personales reales).
+
+5. Consideraciones de diseño
+   - Interfaz clara, sencilla y accesible desde dispositivos móviles.
+   - Colores neutros que no distraigan del contenido comunitario.
+   - No se muestra información privada de los usuarios (nombres reales, teléfonos, direcciones).
+   - Mensajes de error amigables si algo falla al crear o apoyar una causa.
