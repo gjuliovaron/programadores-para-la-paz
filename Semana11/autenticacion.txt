@@ -1,0 +1,19 @@
+AUTENTICACIÓN EN LA PLATAFORMA COMUNITARIA
+
+El login en una aplicación es el proceso mediante el cual un usuario demuestra 
+quién es para obtener acceso al sistema. Generalmente se hace ingresando un 
+correo o nombre de usuario junto con una contraseña. Si las credenciales son 
+correctas, el sistema genera una sesión o un token que permite al usuario navegar 
+por las funciones autorizadas sin tener que identificarse repetidamente.
+
+Algunas rutas deben estar protegidas porque pueden contener información privada, 
+registros internos, datos de otros usuarios o funciones administrativas que no 
+deberían estar disponibles para cualquier persona. Por ejemplo, un ciudadano 
+puede ver causas públicas, pero solo un coordinador debería poder modificar o 
+eliminar registros. Proteger las rutas evita accesos no autorizados y mantiene 
+la integridad del sistema.
+
+No se deben exponer públicamente contraseñas, documentos de identidad, teléfonos, 
+direcciones exactas, tokens de sesión, claves de API ni datos sensibles de la 
+comunidad. Estos datos deben almacenarse de forma segura, preferiblemente 
+encriptados, y nunca enviarse al frontend ni registrar en logs sin protección.
