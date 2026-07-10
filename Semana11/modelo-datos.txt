@@ -1,0 +1,36 @@
+MODELO DE DATOS - PLATAFORMA COMUNITARIA
+
+Entidad: Causa
+
+Campos principales:
+- id (entero, clave primaria, autoincremental)
+- titulo (texto, nombre de la causa comunitaria)
+- descripcion (texto, detalle de la necesidad o propuesta)
+- categoria (texto, tipo de causa: medio ambiente, seguridad, infraestructura, etc.)
+- fecha_creacion (fecha/hora, momento en que se registra)
+- estado (texto: activa, en proceso, resuelta)
+- creado_por (texto, identificador del usuario que la creó, sin datos personales reales)
+
+Propósito:
+Guardar las causas comunitarias que serán visibles en la plataforma para que los ciudadanos puedan conocerlas, apoyarlas y hacer seguimiento.
+
+---
+
+Entidad: Apoyo
+
+Campos principales:
+- id (entero, clave primaria, autoincremental)
+- causa_id (entero, clave foránea que enlaza con la entidad Causa)
+- usuario_id (texto, identificador anónimo o pseudónimo del ciudadano que apoya)
+- fecha_apoyo (fecha/hora, momento en que se registra el apoyo)
+- comentario (texto opcional, mensaje breve de respaldo)
+
+Propósito:
+Registrar los apoyos que recibe cada causa para hacer seguimiento a la participación ciudadana y medir el impacto comunitario sin exponer datos personales sensibles.
+
+---
+
+Relación entre entidades:
+Una Causa puede tener muchos Apoyos (relación uno a muchos).
+Esto permite contar cuántos apoyos tiene cada causa y quiénes participan, 
+manteniendo la privacidad mediante identificadores ficticios o anonimizados.
