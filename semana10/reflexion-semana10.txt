@@ -1,0 +1,23 @@
+REFLEXIÓN SEMANA 10 - METODOLOGÍAS ÁGILES Y AUTOMATIZACIÓN
+
+Las metodologías ágiles permiten dividir un proyecto grande en entregas pequeñas 
+y manejables, lo que facilita que una comunidad vea resultados concretos rápidamente 
+y pueda dar retroalimentación continua. Esto genera confianza y mantienen el 
+compromiso de los participantes.
+
+La automatización con herramientas como n8n reduce la carga manual de tareas 
+repetitivas, como enviar notificaciones o consolidar información, liberando tiempo 
+para que los coordinadores se enfoquen en decisiones estratégicas y en el 
+acompañamiento a los ciudadanos.
+
+Telegram funciona como un canal accesible y de bajo costo para la coordinación 
+comunitaria. Permite crear grupos de trabajo, enviar alertas masivas y mantener 
+una comunicación fluida sin requerir infraestructura compleja.
+
+Juntas, estas herramientas democratizan la participación ciudadana porque bajan 
+las barreras técnicas y organizativas. Cualquier persona puede reportar, seguir 
+el estado de una incidencia y recibir actualizaciones en tiempo real, fortaleciendo 
+la transparencia y la rendición de cuentas en procesos de veeduría.
+
+Además, la trazabilidad que ofrece Git permite que todo el desarrollo quede 
+documentado y auditable, lo cual es fundamental para proyectos de interés público.
