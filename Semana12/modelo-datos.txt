@@ -1,0 +1,40 @@
+MODELO DE DATOS - PETICIÓN EN 3 CLICS
+
+Entidad: Causa
+
+Campos principales:
+- id (entero, clave primaria, autoincremental)
+- titulo (texto, nombre de la causa comunitaria, máximo 150 caracteres)
+- descripcion (texto, detalle de la necesidad o propuesta, máximo 1000 caracteres)
+- categoria (texto: medio ambiente, seguridad, infraestructura, salud, educación, otros)
+- fecha_creacion (fecha/hora, momento en que se registra la causa)
+- estado (texto: activa, en proceso, cerrada, completada)
+- meta_apoyos (entero, número mínimo de apoyos deseados, opcional)
+- creado_por (texto, pseudónimo o identificador anónimo del ciudadano)
+
+Propósito:
+Almacenar las causas comunitarias que serán visibles en la plataforma para que
+los ciudadanos puedan conocerlas, apoyarlas y generar peticiones formales.
+
+---
+
+Entidad: Apoyo
+
+Campos principales:
+- id (entero, clave primaria, autoincremental)
+- causa_id (entero, clave foránea que enlaza con la entidad Causa)
+- pseudonimo (texto, nombre ficticio o identificador del ciudadano que apoya)
+- fecha_apoyo (fecha/hora, momento en que se registra el apoyo)
+- comentario (texto opcional, mensaje breve de respaldo, máximo 200 caracteres)
+
+Propósito:
+Registrar los apoyos que recibe cada causa para contabilizar la participación
+ciudadana y determinar cuándo se ha alcanzado la meta para generar el documento PDF.
+No se almacenan datos personales reales (nombres completos, cédulas, teléfonos, direcciones).
+
+---
+
+Relación entre entidades:
+Una Causa puede tener muchos Apoyos (relación uno a muchos).
+Esto permite contar cuántos apoyos tiene cada causa y generar el documento formal
+cuando se alcance la meta definida.
