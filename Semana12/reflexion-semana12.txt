@@ -1,0 +1,23 @@
+REFLEXIÓN SEMANA 12 - TECNOLOGÍA Y PARTICIPACIÓN CIUDADANA
+
+Durante este curso aprendí que la tecnología no es un fin en sí misma, sino una
+herramienta para amplificar las voces de las comunidades. Una plataforma como
+"Petición en 3 Clics" demuestra que con componentes sencillos —base de datos,
+autenticación, generación de documentos y automatización— es posible crear
+soluciones reales que empoderan a los ciudadanos.
+
+La metodología ágil me permitió entender que no se necesita un sistema perfecto
+desde el inicio; basta con una entrega mínima viable que funcione y se pueda
+mejorar con la retroalimentación de la comunidad. El backlog y las iteraciones
+ayudan a mantener el enfoque en lo que realmente importa: resolver una necesidad
+concreta.
+
+La automatización con n8n y Telegram mostró cómo reducir tareas repetitivas
+y mantener informados a los coordinadores sin exponer datos sensibles. Esto
+refuerza la idea de que la seguridad y la privacidad deben ser principios
+fundamentales, no opcionales, en cualquier plataforma ciudadana.
+
+Finalmente, la trazabilidad con Git y la documentación clara de cada semana
+me enseñaron que la transparencia técnica es tan importante como la transparencia
+social. Una comunidad confía más en una herramienta cuando puede entender cómo
+funciona y quién la construye.
