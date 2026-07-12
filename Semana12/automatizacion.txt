@@ -1,0 +1,26 @@
+AUTOMATIZACIÓN - PETICIÓN EN 3 CLICS (n8n + Telegram)
+
+Descripción del flujo de automatización:
+
+¿Qué evento activa la automatización?
+Evento: Una causa alcanza la meta mínima de apoyos definida.
+        Alternativamente, también puede activarse cuando se crea una nueva causa
+        o cuando se genera el documento PDF.
+
+¿Qué mensaje se envía?
+Mensaje a Telegram: "La causa '[Título de la causa]' ha alcanzado [X] apoyos.
+El documento formal está listo para descargar. Revisar panel de administración."
+
+¿Qué información NO debe enviarse por seguridad?
+- Nombres completos de los ciudadanos que apoyaron
+- Números de documento de identidad (cédulas, pasaportes, etc.)
+- Números de teléfono o correos electrónicos personales
+- Direcciones exactas o geolocalización precisa
+- Comentarios que identifiquen personas específicas o situaciones sensibles
+- Tokens de sesión, claves de API o credenciales del sistema
+- Contenido del documento PDF completo (solo una alerta genérica)
+
+Nota de seguridad:
+El mensaje a Telegram debe ser una notificación genérica que invite a revisar
+la plataforma interna. La información detallada y los documentos se manejan
+dentro del sistema protegido, nunca por canales de mensajería pública.
